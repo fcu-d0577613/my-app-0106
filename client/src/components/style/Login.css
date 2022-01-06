@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:微軟正黑體;  
+
+}
+
+
+
+
+.Login-container{
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login-Wrapper{
+  height: 350px;
+  width: 250px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-top: 5px solid #f2c467;
+  box-shadow: 0 0px 70px rgba(0, 0, 0, 0.15);
+  position: relative;
+  margin: auto;
+  text-align:center; 
+  border: 2px solid orange;
+
+}
+
+.username, .useremail, .password, .comfirmpassword, .register, .orRegis , h2{
+  width: 200px;
+  height: 25px;    
+  margin: 10px; 
+  
+}
+
+.register{
+  background-color: #f2c467;
+  color: #fff;
+  border:rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.register:hover{
+  background-color:rgb(255, 226, 95);
+}
+.orRegis{
+  display: block;
+  padding: 5px;
+  color: rgb(179, 179, 179);
+  text-align: start;
+}
+.orRegis:hover{
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+}

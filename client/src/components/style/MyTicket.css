@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:微軟正黑體;  
+  
+}
+
+.MyTicket-container{
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  background-color: #121918;
+}
+
+.MyTicket-wrapper{
+  width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 5px;
+}
+
+.MyTicket-nitice{
+  height: 350px;
+  flex: 1 1 500px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+
+.notice-item {
+  text-align: start;
+  margin: 15px;
+  
+}
+.notice-item > li{
+  margin: 15px;
+}
+
+.notice-box{
+  position: relative;
+  width: 100%;
+  padding: 15px 30px;
+  border: 1px solid #fff;
+  
+  
+}
+.notice-box > h1{
+  color: #f2c467;
+}
+.notice-box > ul{
+  color: #fff;
+  text-align: center;
+}
+
+
+.MyTicket-item{
+  height: 100%;
+  flex: 3 1 850px;
+  /* background-color: red; */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.MyTicket-ticket{
+  
+  width: 90%;
+  height: 250px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #fff;
+  justify-content: center;
+}
+
+.ticetClassName{
+  width: 70%;
+  height: 100%;
+  padding: 0px;
+  position: relative;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 50% 30%;
+  
+}
+.t-head{
+  margin-left: 10px;
+  grid-area: 1/1/2/4;
+  text-align:start;
+  
+}
+.t-boby{
+  padding: 0px;
+  color: #fff;
+
+  grid-area: 2/2/3/5;
+}
+.t-boby > h1{
+  font-size: 3rem;
+  text-align: center;
+  
+}
+.t-boby > h2{
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  left: -10px;
+  color: #f2c467;
+}
+.t-fitter{
+  
+  position: relative;
+  text-align: center;
+  grid-area: 3/2/3/5;
+}
+.t-fitter > p{
+  position: relative;
+  top: 70%;
+  /* border: 2px solid oldlace; */
+}
+
+
+.ticketYMD{
+  width: 30%;
+  height: 100%;
+  border-left: 2px solid oldlace;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lilLOGO{
+  height: 200px;
+  width: 200px;
+  border: 3px solid oldlace;
+  border-radius: 100px;
+}
+
+.ticketYMD > .t-fitter{
+  position: relative;
+  bottom: -5px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1196px) {
+  .MyTicket-item{
+    height: 100%;
+    flex: 3 1 650px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: none;
+  }
+
+  .ticketYMD{
+    display: none;
+  }
+
+  .ticetClassName{
+    width: 100%;
+  }
+  
+
+}
+
+@media screen and (max-width: 434px) {
+  .t-boby > h1{
+    text-align: center;
+    font-size:1.8rem;
+    
+  }
+
+}

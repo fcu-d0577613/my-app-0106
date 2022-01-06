@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.abericTable-container{
+  padding: auto;
+  background: #242424;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+.abericTable-wrapper{
+  width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:  4rem ;
+  
+  
+}
+
+.pic{
+  flex: 2 1 300px;
+  display: flex;
+  max-height: 100%;
+  margin: 5px;
+  align-items: flex-start;
+  
+  
+}
+
+.abericTable-pic{
+  max-height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border: 1px solid rgb(255, 255, 255);
+  
+}
+
+.abericTable-booking{
+  flex: 1 1 650px;
+  flex-wrap: wrap;
+  margin: 5px;
+  height: 100%;
+  padding: 0px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.booking-title{
+  color: #f2c467;
+  width: 100%;
+}
+
+.booking-ticket{
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  color: #fff; 
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.booking-ticket > h5{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.booking-ticket:hover{
+  background-color: #fff;
+  color:#242424;
+
+}

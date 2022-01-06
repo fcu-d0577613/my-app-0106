@@ -1,0 +1,91 @@
+.GymTable-container{
+  display: flex;
+  
+  background: #242424;
+  height: 100%;
+  justify-content: center;
+}
+.GymTable-wrapper{
+  display: block;
+  width: 90%;
+  height: 100%;
+  /* border: 1px solid rgb(255, 137, 2); */
+  justify-content: center;
+}
+
+.Gymtext{
+  display: flex;
+  
+  height: auto;
+  width: 100%;
+  padding: 20px 50px;
+  justify-content: center;
+   /* border: 1px solid #fff;  */
+
+}
+ .item{
+  border: 1px solid #fff; 
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 0px 10px 0px 10px ;
+}
+.Gymtext .item > h3{
+   color:#f2c467; 
+  font-weight: bold;
+  
+}
+.Gymtext .item > p{
+  font-size: 1.2rem;
+}
+
+.GymPic{
+  display: block;
+  /* border: 1px solid rgb(255, 0, 0); */
+  justify-content: center;
+}
+
+.GymPic-title{
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px;
+  border-top: 1px solid #fff;
+}
+
+.Pic{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.pic-box{
+  height: 640px;
+  width: 365;
+  margin: 35px 15px;
+  padding: 20px;
+  /* border: 1px solid #fff; */
+  
+  
+}
+
+.pic-item{
+  border: 1px solid #fff;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  margin: 5px;
+  
+}
+
+@media screen and (max-width: 1330px) {
+  .Gymtext .item{
+    display: block;
+    width: 100%;
+  }
+}
